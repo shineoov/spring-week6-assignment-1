@@ -31,7 +31,7 @@ public class WebUserControllerTest {
     class Describe_create {
 
         @Nested
-        @DisplayName("비밀번번호가 연속되는 3개의 숫자를 갖는다면")
+        @DisplayName("비밀번호가 연속되는 3개의 숫자를 갖는다면")
         class Context_ConsecutiveNumbersInPassword {
 
             final String contentTemplate =
